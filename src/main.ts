@@ -23,6 +23,8 @@ async function bootstrap() {
   
   await app.listen(envs.port);
 
+  console.log('hola mundo primer cambio');
+
   logger.log(`Server Gateway is running on ${envs.port}`);
 }
 bootstrap();
